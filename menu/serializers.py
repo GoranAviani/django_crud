@@ -5,7 +5,6 @@ from menu.models import Menu
 # querysets or model instances in Python native objects that can be easily converted JSON/XML
 # format.
 
-
 class MenuSerializer(serializers.ModelSerializer):
     class Meta:
         model = Menu
